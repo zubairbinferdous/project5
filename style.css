@@ -1,0 +1,28 @@
+.search-input{
+ text-align:center;
+ margin-top: 30px;
+}
+
+.searchStyle{
+    width: 307px;
+    height: 54px;
+    font-size: 20px;
+	text-transform: uppercase;
+}
+
+.searchButton{
+	height: 54px;
+	width: 107px;
+	font-size: 20px;
+	color:white;
+	background:blue;
+	text-transform: uppercase;
+}
+
+.Body-color{
+	background-color: #ffb100ad;
+}
+
+.bg-color{
+	background-color: rgb(255, 255, 255);
+}
