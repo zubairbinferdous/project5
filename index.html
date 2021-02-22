@@ -1,62 +1,94 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>project 4</title>
-  </head>
-  <body class="Body-color">
-    <header>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 
-      <nav class="navbar navbar-expand-lg navbar-light  bg-color pt-4">
-        <div class="container">
-  
-          <a class="navbar-brand" href="#"><img src="images/logo.png " alt="" style="width: 270px;"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-  
-  
-          <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo03">
-            <ul class="navbar-nav">
-              <li class="nav-item ">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
+  <title>project 5</title>
+</head>
 
-          </div>
+<body class="Body-color">
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-light  bg-color pt-4">
+      <div class="container">
+
+        <a class="navbar-brand" href="#"><img src="" alt="" style="width: 270px;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo03">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
 
-    <div class="search-input">
-      <input type="text" placeholder=" search meals" class="searchStyle">
-      <button class="searchButton">search</button>
+  <div class="container">
+    <div class="row searchBox">
+
+        <div id="searchinput">
+          <input id="searchField" type="text" placeholder=" search meals" class="searchStyle">
+          <button onclick="searchFood()" class="searchButton">search</button>
+        </div>
+
     </div>
-
-    
-    
+  </div>
 
 
+  <div class="col-md-3">
+    <div class="row " id="ingredientInfo">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    </div>
+  </div>
 
-  </body>
+
+
+  <div class="container margin">
+        <div class="row" id="songContainer">
+          
+        </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
 </html>
